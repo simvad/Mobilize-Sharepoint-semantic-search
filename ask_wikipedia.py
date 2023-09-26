@@ -10,7 +10,7 @@ import os
 
 #read openAI.token
 
-os.environ['OPENAI_API_KEY'] = open('openAI.token', 'r').read()
+os.environ['OPENAI_API_KEY'] = open('openAI.token', 'r').read().strip()
 
 
 class Genie:
